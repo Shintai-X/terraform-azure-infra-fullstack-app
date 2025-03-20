@@ -1,7 +1,7 @@
-# Terraform Azure Infrastructure Project
+# Simple Terraform Azure Infrastructure Project
 
 ## Overview
-This Terraform project is designed to provision and manage infrastructure on **Microsoft Azure**. It follows a modular approach and consists of the following key components:
+This is a simple Terraform project is designed to provision and manage infrastructure on **Microsoft Azure**. It follows a modular approach and consists of the following key components:
 
 - **Networking Module**: Sets up virtual networks, subnets, and security groups.
 - **Compute Module**: Provisions virtual machines and related resources.
@@ -66,11 +66,13 @@ terraform destroy -auto-approve
 - Configures VM networking and security rules
 - Attaches storage and managed disks
 
-### 🗄️ Database Module (`modules/database`)
+### 🗄️ Database Module (`modules/database`)  
+
 - Provisions Azure SQL Database or Cosmos DB
 - Configures security policies and access rules
 
 ## Diagram
 Below is a high-level architecture diagram of the infrastructure:
 
-![Infrastructure Diagram](https://raw.githubusercontent.com/Shintai-X/terraform-azure-infra-fullstack-app/main/tf-porject.drawio.svg)
+![Screenshot_1](https://github.com/user-attachments/assets/2f4c2478-0e92-440a-926f-82ad3f0d73f7)
+
