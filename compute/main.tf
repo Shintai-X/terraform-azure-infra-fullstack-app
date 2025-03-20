@@ -10,7 +10,7 @@ resource "azurerm_linux_virtual_machine" "vm-front" {
 
   admin_ssh_key {
     username   = "adminuser"
-    public_key = file("./ssh/id_rsa.pub")
+    public_key = file("path to you're ssh file")
   }
 
   os_disk {
@@ -38,7 +38,7 @@ resource "azurerm_linux_virtual_machine" "vm-back" {
 
   admin_ssh_key {
     username   = "adminuser"
-    public_key = file("./ssh/id_rsa.pub")
+    public_key = file("path to you're ssh file")
   }
 
   os_disk {
