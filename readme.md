@@ -74,5 +74,6 @@ terraform destroy -auto-approve
 ## Diagram
 Below is a high-level architecture diagram of the infrastructure:
 
-![Screenshot_1](https://github.com/user-attachments/assets/2f4c2478-0e92-440a-926f-82ad3f0d73f7)
+![Screenshot_2](https://github.com/user-attachments/assets/b68eac32-7237-4158-9f3f-a3456d0c0bec)
+
 
