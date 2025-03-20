@@ -12,6 +12,10 @@ The principal entry point for Terraform execution is the **`main.tf`** file, whi
 ## Project Structure
 ```
 terraform-azure-project/
+│   ├── resource-groupe/
+│   │   ├── main.tf
+│   │   ├── variables.tf
+│   │   ├── outputs.tf
 │   ├── networking/
 │   │   ├── main.tf
 │   │   ├── variables.tf
@@ -69,8 +73,4 @@ terraform destroy -auto-approve
 ## Diagram
 Below is a high-level architecture diagram of the infrastructure:
 
-![Infrastructure Diagram](tf-porject.drawio.svg)
-
-
-
-
+![Infrastructure Diagram](https://raw.githubusercontent.com/Shintai-X/terraform-azure-infra-fullstack-app/main/tf-porject.drawio.svg)
